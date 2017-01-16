@@ -1,1 +1,1 @@
-"# telerik-academy-c-sharp-oop-exam" 
+# Telerik Academy - C# OOP - Exam - January 2017
