@@ -8,7 +8,7 @@ using Academy.Models.Contracts;
 
 namespace Academy.Models.Utils
 {
-    public class PresentationResource : LectureResource, ILectureResouce
+    public class PresentationResource : LectureResource, ILectureResource
     {
         public PresentationResource(string name, string url) : base(name, url)
         {

@@ -17,7 +17,7 @@ namespace Academy.Models.Utils
             this.Date = date;
             this.Trainer = trainer;
 
-            this.Resouces = new List<ILectureResouce>();
+            this.Resources = new List<ILectureResource>();
         }
 
         public DateTime Date { get; set; }
@@ -40,7 +40,7 @@ namespace Academy.Models.Utils
             }
         }
 
-        public IList<ILectureResouce> Resouces { get; }
+        public IList<ILectureResource> Resources { get; }
 
         public ITrainer Trainer { get; set; }
 
@@ -54,17 +54,17 @@ namespace Academy.Models.Utils
             sb.AppendLine($"   - Trainer username: {this.Trainer.Username}");
             sb.AppendLine($"   - Resources:");
 
-            if (this.Resouces.Count == 0)
+            if (this.Resources.Count == 0)
             {
                 sb.AppendLine("    * There are no resources in this lecture.");
             }
-            // else
-            // {
-            //     foreach (var resouce in this.Resouces)
-            //     {
-            //         sb.AppendLine(resouce.ToString());
-            //     }
-            // }
+            else
+            {
+                foreach (var resource in this.Resources)
+                {
+                    sb.AppendLine(resource.ToString());
+                }
+            }
 
             return sb.ToString().TrimEnd();
         }

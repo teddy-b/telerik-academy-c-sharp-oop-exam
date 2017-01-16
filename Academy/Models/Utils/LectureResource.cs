@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Academy.Models.Utils
 {
-    public abstract class LectureResource : ILectureResouce
+    public abstract class LectureResource : ILectureResource
     {
         private string name;
         private string url;

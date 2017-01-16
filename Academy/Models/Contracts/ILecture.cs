@@ -11,6 +11,6 @@ namespace Academy.Models.Contracts
 
         ITrainer Trainer { get; set; }
 
-        IList<ILectureResouce> Resouces { get; }
+        IList<ILectureResource> Resources { get; }
     }
 }

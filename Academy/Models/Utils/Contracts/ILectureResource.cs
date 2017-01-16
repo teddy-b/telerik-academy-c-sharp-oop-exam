@@ -1,6 +1,6 @@
 ﻿namespace Academy.Models.Contracts
 {
-    public interface ILectureResouce
+    public interface ILectureResource
     {
         string Name { get; set; }
 

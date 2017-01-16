@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Academy.Models.Utils
 {
-    public class VideoResource : LectureResource, ILectureResouce
+    public class VideoResource : LectureResource, ILectureResource
     {
         private DateTime uploadedOn;
 
@@ -24,7 +24,7 @@ namespace Academy.Models.Utils
             sb.AppendLine($"     - Name: {this.Name}");
             sb.AppendLine($"     - Url: {this.Url}");
             sb.AppendLine("     - Type: Video");
-            sb.AppendLine($"     - Due date: {this.uploadedOn}");
+            sb.AppendLine($"     - Uploaded on: {this.uploadedOn}");
 
             return sb.ToString().TrimEnd();
         }

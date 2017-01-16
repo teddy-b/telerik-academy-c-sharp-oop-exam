@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Academy.Models.Utils
 {
-    public class HomeworkResource : LectureResource, ILectureResouce
+    public class HomeworkResource : LectureResource, ILectureResource
     {
         private DateTime dueDate;
 

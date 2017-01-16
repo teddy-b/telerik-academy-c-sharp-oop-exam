@@ -50,7 +50,7 @@
     <Compile Include="Commands\Creating\CreateCourseCommand.cs" />
     <Compile Include="Commands\Creating\CreateCourseResultCommand.cs" />
     <Compile Include="Commands\Creating\CreateLectureCommand.cs" />
-    <Compile Include="Commands\Creating\CreateLectureResouceCommand.cs" />
+    <Compile Include="Commands\Creating\CreateLectureResourceCommand.cs" />
     <Compile Include="Commands\Creating\CreateSeasonCommand.cs" />
     <Compile Include="Commands\Creating\CreateStudentCommand.cs" />
     <Compile Include="Commands\Creating\CreateTrainerCommand.cs" />
@@ -83,7 +83,7 @@
     <Compile Include="Models\Student.cs" />
     <Compile Include="Models\Trainer.cs" />
     <Compile Include="Models\Utils\Contracts\ICourseResult.cs" />
-    <Compile Include="Models\Utils\Contracts\ILectureResouce.cs" />
+    <Compile Include="Models\Utils\Contracts\ILectureResource.cs" />
     <Compile Include="Models\Utils\CourseResult.cs" />
     <Compile Include="Models\Utils\DemoResource.cs" />
     <Compile Include="Models\Utils\HomeworkResource.cs" />
